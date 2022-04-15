@@ -1,4 +1,4 @@
 # rfthings.github.io
 This repo is intended for providing static URLs of RFThings Arduino Core including:
-* [RFThings/rfthings-stm32l4](https://github.com/RFThings/rfthings-stm32l4)
-* [RFThings/rfthings-avr](https://github.com/RFThings/rfthings-avr)
+* [<b><u>RFThings/rfthings-stm32l4</u></b>](https://github.com/RFThings/rfthings-stm32l4): [https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-stm32l4_index.json](https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-stm32l4_index.json)
+* [<b><u>RFThings/rfthings-avr</u></b>](https://github.com/RFThings/rfthings-avr): [https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-avr_index.json](https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-avr_index.json)
