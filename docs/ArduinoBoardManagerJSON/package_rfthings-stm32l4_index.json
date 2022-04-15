@@ -12,6 +12,32 @@
         {
           "name": "RFThings STM32L4 Boards",
           "architecture": "stm32l4",
+          "version": "0.0.60",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/RFThings/rfthings-stm32l4"
+          },
+          "url": "https://github.com/RFThings/rfthings-stm32l4/archive/refs/tags/v0.0.6.tar.gz",
+          "archiveFileName": "rfthings-stm32l4-0.0.6.tar.gz",
+          "checksum": "MD5:CC15E61E0FDF2D1794BA2F77F29B9057",
+          "size": "16585405",
+          "boards": [
+            {"name": "RFThings-DKPlatinum"},
+            {"name": "RFThings-DKBlue"},
+            {"name": "RFThings-DKAIoT"},
+            {"name": "RFThings-Generic"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        },
+        {
+          "name": "RFThings STM32L4 Boards",
+          "architecture": "stm32l4",
           "version": "0.0.50-test",
           "category": "Contributed",
           "help": {
