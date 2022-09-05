@@ -1,0 +1,63 @@
+{
+  "packages": [
+    {
+      "name": "rfthings-stm32wb",
+      "maintainer": "RFThings Vietnam",
+      "websiteURL": "rfthings.com.vn",
+      "email": "support@rfthings.com.vn",
+      "help": {
+        "online": "rfthings.com.vn"
+      },
+      "platforms": [
+        {
+          "name": "RFThings STM32WB Boards",
+          "architecture": "stm32wb55",
+          "version": "0.9.2",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/nguyenmanhthao996tn/RFThings-stm32wb"
+          },
+          "url": "https://github.com/nguyenmanhthao996tn/RFThings-stm32wb/archive/refs/tags/v0.9.2.tar.gz",
+          "archiveFileName": "RFThings-stm32wb-0.9.2.tar.gz",
+          "checksum": "MD5:1E51997D207ED38C7E85D07C234788C5",
+          "size": "9628310",
+          "boards": [
+            {"name": "LS300-WB55RE (Gemini V2.1)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        },
+        {
+          "name": "RFThings STM32WB Boards",
+          "architecture": "stm32wb55",
+          "version": "0.9.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/nguyenmanhthao996tn/RFThings-stm32wb"
+          },
+          "url": "https://github.com/nguyenmanhthao996tn/RFThings-stm32wb/archive/refs/tags/v0.9.1.tar.gz",
+          "archiveFileName": "RFThings-stm32wb-0.9.1.tar.gz",
+          "checksum": "MD5:1FCAD8E3957CFA54BC3ADD5A76C78BF0",
+          "size": "9628324",
+          "boards": [
+            {"name": "LS300-WB55RE (Gemini V2.1)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    }
+  ]
+}
