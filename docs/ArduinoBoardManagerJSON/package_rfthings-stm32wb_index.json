@@ -11,7 +11,7 @@
       "platforms": [
         {
           "name": "RFThings STM32WB Boards",
-          "architecture": "stm32wb55",
+          "architecture": "stm32wb",
           "version": "0.9.2",
           "category": "Contributed",
           "help": {
@@ -27,8 +27,13 @@
           "toolsDependencies": [
             {
               "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "arduino",
               "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
+              "version": "7-2017q4"
             }
           ]
         },
