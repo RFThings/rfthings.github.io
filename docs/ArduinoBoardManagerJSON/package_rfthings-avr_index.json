@@ -12,6 +12,30 @@
         {
           "name": "RFThings AVR Boards",
           "architecture": "avr",
+          "version": "0.1.1-rc6",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/RFThings/rfthings-avr"
+          },
+          "url": "https://github.com/RFThings/rfthings-avr/archive/refs/tags/v0.1.1-rc6.tar.gz",
+          "archiveFileName": "rfthings-avr-0.1.1-rc6.tar.gz",
+          "checksum": "MD5:0C3046BC79AB6A5F920183F83FEBEBCE",
+          "size": "5349327",
+          "boards": [
+            {"name": "RFThings LC-01"},
+            {"name": "RFThings UCA"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        },
+        {
+          "name": "RFThings AVR Boards",
+          "architecture": "avr",
           "version": "0.1.1-rc5",
           "category": "Contributed",
           "help": {
