@@ -12,6 +12,34 @@
         {
           "name": "RFThings STM32WB Boards",
           "architecture": "stm32wb",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/nguyenmanhthao996tn/RFThings-stm32wb"
+          },
+          "url": "https://github.com/nguyenmanhthao996tn/RFThings-stm32wb/archive/refs/tags/v1.0.0.tar.gz",
+          "archiveFileName": "RFThings-stm32wb-1.0.0.tar.gz",
+          "checksum": "MD5:BCA96FAC8248EC4476A966531AAFD458",
+          "size": "9809509",
+          "boards": [
+            {"name": "LS300-WB55RE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino13"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            }
+          ]
+        },
+        {
+          "name": "RFThings STM32WB Boards",
+          "architecture": "stm32wb",
           "version": "0.9.3",
           "category": "Contributed",
           "help": {
