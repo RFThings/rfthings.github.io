@@ -3,7 +3,7 @@
     {
       "name": "rfthings-esp32",
       "maintainer": "RFThings Vietnam",
-      "websiteURL": "https://rfthings.com.vn/",
+      "websiteURL": "https://github.com/RFThings/RF210-ESP32-Arduino-BSP/",
       "email": "support@rfthings.com.vn",
       "help": {
         "online": "rfthings.com.vn"
