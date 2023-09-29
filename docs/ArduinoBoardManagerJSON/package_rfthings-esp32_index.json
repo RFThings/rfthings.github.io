@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "rfthings-avr",
+      "name": "rfthings-esp32",
       "maintainer": "RFThings Vietnam",
       "websiteURL": "https://rfthings.com.vn/",
       "email": "support@rfthings.com.vn",
