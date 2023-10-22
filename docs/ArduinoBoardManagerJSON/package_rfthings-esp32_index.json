@@ -12,6 +12,84 @@
         {
           "name": "RFThings ESP32 Boards",
           "architecture": "esp32",
+          "version": "0.0.2",
+          "category": "ESP32",
+          "url": "https://github.com/RFThings/RF210-ESP32-Arduino-BSP/archive/refs/tags/v0.0.2.tar.gz",
+          "archiveFileName": "v0.0.2.tar.gz",
+          "checksum": "MD5:BE208391CD9178E3F24C2426C409E435",
+          "size": "271364532",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+            {
+              "name": "RF210"
+            },
+            {
+              "name": "RF210 (Advanced)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "rfthings-esp32",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "xtensa-esp32s2-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "xtensa-esp32s3-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "xtensa-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "esp-2021r2-patch5-8.4.0"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "riscv32-esp-elf-gdb",
+              "version": "11.2_20220823"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "openocd-esp32",
+              "version": "v0.11.0-esp32-20221026"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "esptool_py",
+              "version": "4.5.1"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "rfthings-esp32",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            }
+          ]
+        },
+        {
+          "name": "RFThings ESP32 Boards",
+          "architecture": "esp32",
           "version": "0.0.1",
           "category": "ESP32",
           "url": "https://github.com/RFThings/RF210-ESP32-Arduino-BSP/archive/refs/tags/v0.0.1.tar.gz",
