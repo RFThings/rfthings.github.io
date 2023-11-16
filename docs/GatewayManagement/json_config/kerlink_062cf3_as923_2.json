@@ -71,7 +71,7 @@
         "fts_match_crc_error": false
     },
     "gateway_conf": {
-        "gateway_ID": "7276FF000F061F16",
+        "gateway_ID": "7276FF000F062CF3",
         /* change with default server address/ports */
         "server_address": "eu1.cloud.thethings.network",
         "serv_port_up": 1700,
