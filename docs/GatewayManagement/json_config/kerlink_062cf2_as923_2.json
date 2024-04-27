@@ -38,13 +38,15 @@
             "chip_center_freq": 921400000,
             "chip_rf_chain": 0,
             "chan_multiSF_0": { "chan_rx_freq": 921400000, "spread_factor": "7-12" },
-            "chan_multiSF_1": { "chan_rx_freq": 921600000, "spread_factor": "7-12" }
+            "chan_multiSF_1": { "chan_rx_freq": 921600000, "spread_factor": "7-12" },
+            "chan_multiSF_2": { "chan_rx_freq": 921800000, "spread_factor": "7-12" }
         },{
             "chip_enable": true,
             "chip_center_freq": 921400000,
             "chip_rf_chain": 1,
             "chan_multiSF_0": { "chan_rx_freq": 921400000, "spread_factor": "7-12" },
-            "chan_multiSF_1": { "chan_rx_freq": 921600000, "spread_factor": "7-12" }
+            "chan_multiSF_1": { "chan_rx_freq": 921600000, "spread_factor": "7-12" },
+            "chan_multiSF_2": { "chan_rx_freq": 921800000, "spread_factor": "7-12" }
         }],
         "lr_fhss_conf": {
             "enable": true,
@@ -55,7 +57,9 @@
                 { "freq_hz": 921400000, "ocw": 137000 }, /* 200kHz channel */
                 { "freq_hz": 921400000, "ocw": 336000 }, /* 400kHz channel */
                 { "freq_hz": 921600000, "ocw": 137000 }, /* 200kHz channel */
-                { "freq_hz": 921600000, "ocw": 336000 }  /* 400kHz channel */
+                { "freq_hz": 921600000, "ocw": 336000 },  /* 400kHz channel */
+                { "freq_hz": 921800000, "ocw": 137000 }, /* 200kHz channel */
+                { "freq_hz": 921800000, "ocw": 336000 }  /* 400kHz channel */
             ]
         },
         "lbt_conf": {
