@@ -1,6 +1,6 @@
 # [Gateway EUI] [Patch MD5] [URL to the update]
-7276ff000f061f15 8682456f5386104d7af8ce45e7f10b12 https://rfthings.github.io/GatewayManagement/json_config/kerlink_061f15_eu868.json
-7276ff000f062cf2 d07a11a9faec3b5de6927a17d3253ee5 https://rfthings.github.io/GatewayManagement/json_config/kerlink_062cf2_as923_2.json
-7276ff000f062cf3 16cde0fc95772321d8b874e541ffbc7c https://rfthings.github.io/GatewayManagement/json_config/kerlink_062cf3_as923_2.json
-7276ff000f062d65 977bbfc1e2c67fe1b1f4a9a635db1042 https://rfthings.github.io/GatewayManagement/json_config/kerlink_062d65_as923_2.json
-7276ff000f062d6f 6d17ed774cebee53b8ef23853e97b993 https://rfthings.github.io/GatewayManagement/json_config/kerlink_062d6f_as923_2.json
+7276ff000f061f15 4cde6a95a6d311e86d3a11b9c2539b64 https://rfthings.github.io/GatewayManagement/json_config/kerlink_061f15_eu868.json
+7276ff000f062cf2 55c613e5f6e8f84d108e7a473ece5fc3 https://rfthings.github.io/GatewayManagement/json_config/kerlink_062cf2_as923_2.json
+7276ff000f062cf3 4433ebcaed06cc7214f7c43ee7e71b93 https://rfthings.github.io/GatewayManagement/json_config/kerlink_062cf3_as923_2.json
+7276ff000f062d65 8e036da4333c48895318f1c24887f40d https://rfthings.github.io/GatewayManagement/json_config/kerlink_062d65_as923_2.json
+7276ff000f062d6f eb6bb7ea0b3779ac60e0b36558af94b8 https://rfthings.github.io/GatewayManagement/json_config/kerlink_062d6f_as923_2.json
