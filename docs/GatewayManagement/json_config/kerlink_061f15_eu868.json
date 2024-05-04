@@ -107,8 +107,8 @@
         "gateway_ID": "7276FF000F061F15",
         /* change with default server address/ports */
         "server_address": "manhthao.ovh",
-        "serv_port_up": 1700,
-        "serv_port_down": 1700,
+        "serv_port_up": 1701,
+        "serv_port_down": 1701,
         /* adjust the following parameters for your network */
         "keepalive_interval": 10,
         "stat_interval": 30,
