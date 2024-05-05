@@ -97,7 +97,7 @@
     "gateway_conf": {
         "gateway_ID": "7276FF000F062D65",
         /* change with default server address/ports */
-        "server_address": "91.134.89.58",
+        "server_address": "manhthao.ovh",
         "serv_port_up": 1700,
         "serv_port_down": 1700,
         /* adjust the following parameters for your network */
