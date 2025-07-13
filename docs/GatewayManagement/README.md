@@ -1,18 +1,22 @@
 # GatewayManagement
 
-This section aims to remotely manage JSON configuration of LoRaWAN Gateways maintained by RFThings CO.,LTD & partners.
+GatewayManagement is a toolset for remotely managing JSON configurations for LoRaWAN Gateways maintained by RFThings CO., LTD and our partners. This repository provides scripts and utilities to update gateway configurations, calculate MD5 hashes, and synchronize changes with gateways.
 
-# FAQ ?
+# FAQ
 
-## How to update a configuration of a specific gateway?
+## Updating Gateway Configurations
 
-1. Go to `./json_config/` folder & look for the corresponding JSON file that match your gateway EUI.
-2. Modify & save the JSON config file.
-3. Calculate MD5 Hash on the updated JSON config file.
-4. Put the calculated MD5 Hash in the coresponding line in `index.txt` file.
-5. Make a commit the remote reposistory.
+### How do I update a configuration for a specific gateway?
+1. Navigate to the `./json_config/` folder and locate the JSON file corresponding to your gateway's EUI.
+2. Modify the JSON file, save your changes, and commit them to the repository.
+3. Calculate the MD5 hash for the updated JSON file by running the `generate_md5.sh` script in the `./json_config/` folder.
+4. Update the corresponding line in the `index.txt` file with the calculated MD5 hash.
+5. Commit the changes to the `index.txt` file.
+6. Push all commits to the remote repository.
 
-Gateway will automatically clone the new configuration and apply. The process usally take 1-2 minutes since the time commit(s) pushed to remote reposistory.
+The gateway will automatically fetch and apply the new configuration, typically within 1–2 minutes after the commits are pushed.
+
+**Note**: MD5 hashes are sensitive to newline characters, which differ between operating systems (e.g., `\n` for Linux, `\r\n` for Windows). Ensure all JSON files use Linux-style newlines (`\n`). You can use tools like `Notepad++` or `vscode` to convert files if needed.
 
 ## How to generate MD5?
 
