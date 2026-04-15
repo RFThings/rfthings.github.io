@@ -10,7 +10,7 @@
         {
           "name": "All New UCA21 Core",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "3.1.2",
           "deprecated": false,
           "category": "Contributed",
           "url": "https://github.com/nguyenmanhthao996tn/all-new-uca21-core/archive/refs/tags/v3.1.2-uca21.tar.gz",
