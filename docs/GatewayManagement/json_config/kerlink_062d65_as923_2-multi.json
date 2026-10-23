@@ -98,8 +98,8 @@
         "gateway_ID": "7276FF000F062D65",
         /* change with default server address/ports */
         "server_address": "15.235.198.130",
-        "serv_port_up": 25001,
-        "serv_port_down": 25001,
+        "serv_port_up": 1700,
+        "serv_port_down": 1700,
         /* adjust the following parameters for your network */
         "keepalive_interval": 10,
         "stat_interval": 30,
